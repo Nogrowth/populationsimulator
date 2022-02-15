@@ -5,3 +5,6 @@
 으로 인구 피라미드 시뮬레이션
 """
 
+import pandas as pd
+df_currentpopulation = pd.read_excel("currentpopulation.xlsx")
+print(df_currentpopulation)
